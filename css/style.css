@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Schoolbell&display=swap');
+
+:root{
+	--color-aqua:#00d9d9;
+	--color-titulos:#000;
+	--color-contenido: #2d2d2d;
+	--bg-header:#000;
+	--bg-footer:#222222;
+	--fondo-testimonio:#F9F9F9;
+}
+body{
+	color:var(--color-contenido);
+	font-family:'Raleway', sans-serif;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.8;
+	color:#8c8c8c;
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+}
+
+#services{
+	padding:80px 0;
+	border-bottom:1px solid #e5e5e5;
+}
+
+#services article{
+	text-align:left;
+	padding:0 25px;
+}
+
+.icon-circle{
+	width:60px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	border-radius:100%;
+	background-color:var(--color-aqua);
+	color:#fff;
+	font-size:26px;
+	margin-bottom:13px;
+}
+
+#services h4{
+	font-family:'Montserrat', sans-serif;
+	font-size:18px;
+	font-weight:400;
+	color: var(--color-contenido);
+	margin-bottom:20px;
+	
+	
+}
+
+#services p{
+	font-family:'Raleway', sans-serif;
+	font-size:16px;
+	line-height:2;
+	color: var(--color-contenido);
+}
+
+#about{
+	padding:80px 0;
+	border-top:1px solid #e5e5e5;
+}
+
+#about h2{
+	font-family:'Montserrat', sans-serif;
+	font-size:24px;
+	font-weight:400;
+	color:#000;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+
+#about h5{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-style:italic;
+	font-weight:500;
+	color: var(--color-contenido);
+	margin-bottom:22px;
+}
+
+#about p{
+	font-family:'Raleway', sans-serif;
+	font-size:16px;
+	font-weight:400;
+	line-height:2;
+	color: var(--color-contenido);
+	margin-top:26px;
+}
+
+#about img{
+	box-shadow:-8px 8px 0px var(--color-aqua);
+}
+
+#doctors{
+	padding:80px 0;
+	text-align:center;
+}
+
+#doctors h2{
+	font-family:'Montserrat', sans-serif;
+	font-size:32px;
+	font-weight:400;
+	color: var(--color-titulos);
+	text-transform:uppercase;
+}
+
+#doctors img{
+	margin-bottom:22px;
+}
+
+#doctors h4{
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:400;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#8a8a8a;
+	margin-top:22px;
+	margin-bottom:10px;
+}
+
+#doctors p{
+	font-style:italic;
+	font-size: 18px; 
+}
+
+#testimonial{
+	background:#F9F9F9;
+	padding:80px 0;
+	text-align:center;
+	font-style:italic;
+	font-size: 16px;
+}
+
+#testimonial p{
+	width:70%;
+	margin:auto;
+}
+
+#testimonial h5{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-size: 18px; 
+}
+
+.quote{
+	font-size:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.stars{
+	color:gold;
+}
+
+
+footer{
+	background-color: var(--bg-footer);
+	color: #888;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(--color-aqua);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width:800px){
+	#about h2{
+	margin-top:25px;
+}
+}
